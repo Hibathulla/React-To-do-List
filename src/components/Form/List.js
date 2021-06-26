@@ -1,11 +1,7 @@
 import NewList from "./NewList"
 import "./List.css"
-import { useState } from "react"
-
 
 const List = (props) => {
-
-  const [strikeNo, setStrikeNo] = useState("")
 
 
   return (

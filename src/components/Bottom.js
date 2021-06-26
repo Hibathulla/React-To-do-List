@@ -39,7 +39,7 @@ const Bottom = (props) => {
 
   const deleteHandler = (items) => {
     setItem(prevItem => {
-      const updated = prevItem.filter(item => item.name != items)
+      const updated = prevItem.filter(item => item.name !== items)
       return updated;
     })
   }
